@@ -54,6 +54,7 @@ li.wine_list_item {
 	background-image: -o-linear-gradient(top, #C0C0C0 0%, #808080 100%);
 	background-image: linear-gradient(top, #C0C0C0 0%, #808080 100%);
 }
+
 li.wine_list_item_top {
 	list-style: none;
 	font-size: 70%;
@@ -70,6 +71,11 @@ li.wine_list_item_top {
 	-o-border-radius-topleft: 5px;
 	border-radius-topright: 5px;
 	border-radius-topleft: 5px;
+}
+
+li.wine_list_item img, li.wine_list_item_top img, li.wine_list_item_bottom img {
+	position: relative;
+	left: 10px;
 }
 
 ul.wine_list h2{
