@@ -5,7 +5,7 @@ function setSelected() {
 
 $(document).ready(function() {
     $('#products').click(function(){
-		window.location = "http://127.0.0.1:8020/Systerbolaget/products.html";
+		window.location = "./products.html";
 	});
     $('#favourites').click(function(){
 		window.location = "./favourites.html";
