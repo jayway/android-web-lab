@@ -26,6 +26,7 @@ body {
 
 
 ul.wine_list {
+	list-style-type: none;
 }
 
 li.wine_list_item {
