@@ -104,13 +104,25 @@ div.menu_option {
 	-webkit-border-radius: 18px;
 	-o-border-radius: 18px;
 	-border-radius: 18px;
-	moz-box-shadow: 0 0 20px #000000;
-	webkit-box-shadow: 0 0 20px #000000;
-	o-box-shadow: 0 0 20px #000000;
-	box-shadow: 0 0 20px #000000;
+	-moz-box-shadow: 0 0 20px #000000;
+	-webkit-box-shadow: 0 0 20px #000000;
+	-o-box-shadow: 0 0 20px #000000;
+	-box-shadow: 0 0 20px #000000;
 }
 	
 a {
 	text-decoration: none;
 	color: black;
+}
+
+ul.contact_list {
+	list-style: none;
+  	margin-left: 1em;
+  	padding-left: 0;
+}
+
+ul.contact_list li {
+	list-style: none;
+  	margin: 0;
+  	padding: 0;
 }
