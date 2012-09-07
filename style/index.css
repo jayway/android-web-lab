@@ -19,55 +19,79 @@ body {
     margin:             0px auto;
 }
 
+article {
+    min-height:         100%;
+    width:				100%;
+}
+
+header {
+    position:			relative;
+    margin:				20px 0px;
+    text-align:			center;
+}
+
+nav {
+    width: 				100%;
+    text-align: 		center;
+}
+
 nav img {
-	width: 128px;
-	height: 128px;
-	margin:				12px 12px;
-	padding:			8px 8px;
+	margin:				10px;
+	width: 				128px;
+	height: 			128px;
+	padding:			2px;
 	border:             solid 1px #999999;
-	border-radius:      12px;
+	border-radius:      72px;
 	cursor:             pointer;
 	
 	-webkit-box-shadow: 2px 2px 3px 0px #232323;
 	-moz-box-shadow:    2px 2px 3px 0px #232323;
 	box-shadow:         2px 2px 3px 0px #232323;
 
-	background:         -webkit-linear-gradient(top, #fafafa 50%, #f0f0f0 100%);
-	background:         -moz-linear-gradient(top, #fafafa 50%, #f0f0f0 100%);
-	background:         -o-linear-gradient(top, #fafafa 50%, #f0f0f0 100%);
-	background:         -ms-linear-gradient(top, #fafafa 50%, #f0f0f0 100%);
-	-ms-filter:         "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#f0f0f0')";  
-	background:         linear-gradient(top, #fafafa 50%, #f0f0f0 100%);
+	background:         -webkit-linear-gradient(top, #fafafa 50%, #d0d0a0 100%);
+	background:         -moz-linear-gradient(top, #fafafa 50%, #d0d0a0 100%);
+	background:         -o-linear-gradient(top, #fafafa 50%, #d0d0a0 100%);
+	background:         -ms-linear-gradient(top, #fafafa 50%, #d0d0a0 100%);
+	-ms-filter:         "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#d0d0a0')";  
+	background:         linear-gradient(top, #fafafa 50%, #d0d0a0 100%);
 }
 
 nav img:nth-child(1) {
-	-webkit-transform: rotate(7.5deg); 
-  	-moz-transform: rotate(7.5deg); 
-  	-ms-transform: rotate(7.5deg); 
-  	-o-transform: rotate(7.5deg); 
-  	transform: rotate(7.5deg); 
+	-webkit-transform:	rotate(7.5deg); 
+  	-moz-transform:		rotate(7.5deg); 
+  	-ms-transform:		rotate(7.5deg); 
+  	-o-transform:		rotate(7.5deg); 
+  	transform:			rotate(7.5deg); 
 }
 
 nav img:nth-child(2) {
-  	-webkit-transform: rotate(-5.5deg); 
-    -moz-transform: rotate(-5.5deg); 
-    -ms-transform: rotate(-5.5deg); 
-    -o-transform: rotate(-5.5deg); 
-    transform: rotate(-5.5deg);
+  	-webkit-transform: 	rotate(-5.5deg); 
+    -moz-transform: 	rotate(-5.5deg); 
+    -ms-transform: 		rotate(-5.5deg); 
+    -o-transform: 		rotate(-5.5deg); 
+    transform: 			rotate(-5.5deg);
 }
 
 nav img:nth-child(3) {
-	-webkit-transform: rotate(-8.0deg); 
-    -moz-transform: rotate(-8.0deg); 
-    -ms-transform: rotate(-8.0deg); 
-    -o-transform: rotate(-8.0deg); 
-    transform: rotate(-8.0deg); 
+	-webkit-transform: 	rotate(-8.0deg); 
+    -moz-transform: 	rotate(-8.0deg); 
+    -ms-transform: 		rotate(-8.0deg); 
+    -o-transform: 		rotate(-8.0deg); 
+    transform: 			rotate(-8.0deg); 
 }
 
 nav img:nth-child(4) {
-  	-webkit-transform: rotate(9deg); 
-    -moz-transform: rotate(9deg); 
-    -ms-transform: rotate(9deg); 
-    -o-transform: rotate(9deg); 
-    transform: rotate(9deg); 
+  	-webkit-transform: 	rotate(9deg); 
+    -moz-transform: 	rotate(9deg); 
+    -ms-transform: 		rotate(9deg); 
+    -o-transform: 		rotate(9deg); 
+    transform: 			rotate(9deg); 
+}
+
+footer {
+    width:              100%;
+    clear:              both;
+    text-align:         center;
+    height:             40px;
+    margin-top:         -40px;
 }
