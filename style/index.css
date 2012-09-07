@@ -10,7 +10,14 @@
 html {
     height:             100%;
     width:				100%;
-    background-color:   #f1efd9;
+/*    background-color:   #f1efd9;*/
+    
+	background:         -webkit-linear-gradient(top, #f1efd9 50%, #d0cdb7 100%);
+	background:         -moz-linear-gradient(top, #f1efd9 50%, #d0cdb7 100%);
+	background:         -o-linear-gradient(top, #f1efd9 50%, #d0cdb7 100%);
+	background:         -ms-linear-gradient(top, #f1efd9 50%, #d0cdb7 100%);
+	-ms-filter:         "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1efd9', endColorstr='#d0cdb7')";  
+	background:         linear-gradient(top, #f1efd9 50%, #d0cdb7 100%);
 }
 
 body {
@@ -26,8 +33,17 @@ article {
 
 header {
     position:			relative;
-    margin:				20px 0px;
-    text-align:			center;
+    height:				80px;
+    text-align:			right;
+}
+
+header img {
+	margin:				20px 20px 0px 0px;
+	-webkit-transform:	rotate(19deg); 
+  	-moz-transform:		rotate(19deg); 
+  	-ms-transform:		rotate(19deg); 
+  	-o-transform:		rotate(19deg); 
+  	transform:			rotate(19deg); 
 }
 
 nav {
@@ -39,45 +55,46 @@ nav img {
 	margin:				10px;
 	width: 				128px;
 	height: 			128px;
-	padding:			2px;
+	padding:			4px 4px;
 	border:             solid 1px #999999;
-	border-radius:      72px;
+	border-radius:      4px;
 	cursor:             pointer;
 	
 	-webkit-box-shadow: 2px 2px 3px 0px #232323;
 	-moz-box-shadow:    2px 2px 3px 0px #232323;
 	box-shadow:         2px 2px 3px 0px #232323;
 
-	background:         -webkit-linear-gradient(top, #fafafa 50%, #d0d0a0 100%);
-	background:         -moz-linear-gradient(top, #fafafa 50%, #d0d0a0 100%);
-	background:         -o-linear-gradient(top, #fafafa 50%, #d0d0a0 100%);
-	background:         -ms-linear-gradient(top, #fafafa 50%, #d0d0a0 100%);
-	-ms-filter:         "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#d0d0a0')";  
-	background:         linear-gradient(top, #fafafa 50%, #d0d0a0 100%);
+	background:         -webkit-linear-gradient(top, #ffffff 50%, #fcfcfc 100%);
+	background:         -moz-linear-gradient(top, #ffffff 50%, #fcfcfc 100%);
+	background:         -o-linear-gradient(top, #ffffff 50%, #fcfcfc 100%);
+	background:         -ms-linear-gradient(top, #ffffff 50%, #fcfcfc 100%);
+	-ms-filter:         "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#fcfcfc')";  
+	background:         linear-gradient(top, #ffffff 50%, #fcfcfc 100%);
 }
 
+/*
 nav img:nth-child(1) {
-	-webkit-transform:	rotate(7.5deg); 
-  	-moz-transform:		rotate(7.5deg); 
-  	-ms-transform:		rotate(7.5deg); 
-  	-o-transform:		rotate(7.5deg); 
-  	transform:			rotate(7.5deg); 
+	-webkit-transform:	rotate(7deg); 
+  	-moz-transform:		rotate(7deg); 
+  	-ms-transform:		rotate(7deg); 
+  	-o-transform:		rotate(7deg); 
+  	transform:			rotate(7deg); 
 }
 
 nav img:nth-child(2) {
-  	-webkit-transform: 	rotate(-5.5deg); 
-    -moz-transform: 	rotate(-5.5deg); 
-    -ms-transform: 		rotate(-5.5deg); 
-    -o-transform: 		rotate(-5.5deg); 
-    transform: 			rotate(-5.5deg);
+  	-webkit-transform: 	rotate(-6deg); 
+    -moz-transform: 	rotate(-6deg); 
+    -ms-transform: 		rotate(-6deg); 
+    -o-transform: 		rotate(-6deg); 
+    transform: 			rotate(-6deg);
 }
 
 nav img:nth-child(3) {
-	-webkit-transform: 	rotate(-8.0deg); 
-    -moz-transform: 	rotate(-8.0deg); 
-    -ms-transform: 		rotate(-8.0deg); 
-    -o-transform: 		rotate(-8.0deg); 
-    transform: 			rotate(-8.0deg); 
+	-webkit-transform: 	rotate(-3deg); 
+    -moz-transform: 	rotate(-3deg); 
+    -ms-transform: 		rotate(-3deg); 
+    -o-transform: 		rotate(-3deg); 
+    transform: 			rotate(-3deg); 
 }
 
 nav img:nth-child(4) {
@@ -87,7 +104,7 @@ nav img:nth-child(4) {
     -o-transform: 		rotate(9deg); 
     transform: 			rotate(9deg); 
 }
-
+*/
 footer {
     width:              100%;
     clear:              both;
