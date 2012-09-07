@@ -72,6 +72,11 @@ li.wine_list_item_top {
 	-border-radius-topright: 5px;
 	-border-radius-topleft: 5px;
 }
+
+ul.wine_list h2{
+	display: inline;
+}
+
 li.wine_list_item_bottom {
 	list-style: none;
 	font-size: 70%;
@@ -99,10 +104,10 @@ div.menu_option {
 	-webkit-border-radius: 18px;
 	-o-border-radius: 18px;
 	-border-radius: 18px;
-	moz-box-shadow: 0 0 20px #FAA;
-	webkit-box-shadow: 0 0 20px #FAA;
-	o-box-shadow: 0 0 20px #FAA;
-	box-shadow: 0 0 20px #FAA;
+	moz-box-shadow: 0 0 20px #000000;
+	webkit-box-shadow: 0 0 20px #000000;
+	o-box-shadow: 0 0 20px #000000;
+	box-shadow: 0 0 20px #000000;
 }
 	
 a {
