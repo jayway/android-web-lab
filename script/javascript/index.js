@@ -1,8 +1,3 @@
-function setSelected() {
-    $('.tabs .selected').removeClass('selected');
-    $(this).addClass('selected');
-}
-
 $(document).ready(function() {
     $('#products').click(function(){
 		window.location = "./products.html";

@@ -34,16 +34,16 @@ article {
 header {
     position:			relative;
     height:				80px;
-    text-align:			right;
+    text-align:			left;
 }
 
 header img {
-	margin:				20px 20px 0px 0px;
-	-webkit-transform:	rotate(19deg); 
-  	-moz-transform:		rotate(19deg); 
-  	-ms-transform:		rotate(19deg); 
-  	-o-transform:		rotate(19deg); 
-  	transform:			rotate(19deg); 
+	margin:				20px 0px 0px 20px;
+	-webkit-transform:	rotate(-19deg); 
+  	-moz-transform:		rotate(-19deg); 
+  	-ms-transform:		rotate(-19deg); 
+  	-o-transform:		rotate(-19deg); 
+  	transform:			rotate(-19deg); 
 }
 
 nav {
@@ -70,6 +70,42 @@ nav img {
 	background:         -ms-linear-gradient(top, #ffffff 50%, #fcfcfc 100%);
 	-ms-filter:         "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#fcfcfc')";  
 	background:         linear-gradient(top, #ffffff 50%, #fcfcfc 100%);
+}
+
+section {
+	text-align:			left;
+	padding:			8px 12px;
+}
+
+table {
+	margin:				0px 10px;
+	border-spacing:		0;
+  	border-collapse:	collapse;
+}
+
+table tr {
+	height: 			32px;
+	line-height: 		32px;
+	vertical-align: 	middle;
+	cursor:             pointer;
+}
+
+table tr:nth-child(even) {
+	background-color: 	#d0cdb7;
+}
+
+table tr td:nth-child(1),
+table tr td:nth-child(3) {
+	width: 				32px;
+	padding: 			0px 4px;
+}
+
+table tr td:nth-child(2) {
+	width: 				100%;
+}
+
+table tr td img {
+	vertical-align: 	middle;
 }
 
 /*
