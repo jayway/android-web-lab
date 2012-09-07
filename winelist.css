@@ -1,0 +1,15 @@
+#checkboxes ul {
+	margin: 0;
+	list-style: none;
+	float: left;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#checkboxes li {
+	border: 1px solid black;
+	border-radius: 15px;
+	padding: 20px;
+	margin-bottom: 5px;
+	background-color: #DFDFDF;
+}
