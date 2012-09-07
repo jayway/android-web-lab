@@ -12,6 +12,12 @@ body {
 	/*	  background-color: #637e9d;*/
 }
 
+h3 {
+	font: 18px/150% Helvetica, Arial, sans-serif;
+	margin-bottom: 0em;
+	padding-bottom: 1em;
+}
+
 a {
 	text-decoration: none;
 }
@@ -56,21 +62,41 @@ a:hover {
 
 .star {
 	opacity: 1.0;
+	vertical-align: text-bottom;
+
 }
 
 .favoriteBox {
 	border-radius: 10px;
 	padding: 20px;
-	margin-bottom: 10px;
+	margin: 10px;
 	background-color: #FFFFFF;
 	-moz-box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
 	-webkit-box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
 	box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+	width: 100%;
 }
+
+.titleFavorites{
+	vertical-align:text-top;
+	width: 10%;
+}
+
+.titleRating {
+	margin: -10px;
+	padding: -10px;
+	float: right;
+/*	width: 50%;*/
+	width:auto;
+}
+
 .favoriteBox:hover {
-	background-color: #000000;
-	left:-20;
-	box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+	position: relative;
+	top: 2px;
+	-moz-box-shadow: 3px 3px 3px rgba(0,0,0,0);
+	-webkit-box-shadow: 3px 3px 3px rgba(0,0,0,0);
+	box-shadow: 3px 3px 3px rgba(0,0,0,0);
+	cursor: pointer;
 }
 
 #logo {
