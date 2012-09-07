@@ -1,15 +1,17 @@
 html {
 	min-width: 100%;
 	min-height: 100%;
-	background-image: -moz-linear-gradient(rgb(175,175,175),rgb(255,255,255));
-	background-image: -o-linear-gradient(rgb(175,175,175),rgb(255,255,255));
-	background-image: -webkit-linear-gradient(rgb(175,175,175),rgb(255,255,255));
-	background-image: linear-gradient(rgb(175,175,175),rgb(255,255,255));
+	backgro/*und-image: -moz-linear-gradient(rgb(18,206,100),rgb(255,255,255));
+	background-image: -o-linear-gradient(rgb(18,206,100),rgb(255,255,255));
+	background-image: -webkit-linear-gradient(rgb(18,206,100),rgb(255,255,255));
+	backgro*/und-image: linear-gradient(rgb(18,206,100),rgb(255,255,255));
 }
 
 .plainText {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 80%;
+	color: #edca3c;
+	padding: 1em;
 }
 
 h1 {
@@ -27,15 +29,12 @@ h1 {
 	width: 25px;
 	height: 25px;
 }
-#systemImage {
-	border: #0000FF 1px;
-	width: 200px;
-	float: left;
-	padding-bottom: .5em;
-	padding-right: .5em;
+
+.roudedImages {
+	border-radius: 15px;
 }
 
-#back{
+#back {
 	width: 50px;
 	height: 50px;
 }
@@ -53,19 +52,23 @@ h1 {
 }
 
 header {
+	background-image: -moz-linear-gradient(rgb(14,164,79),rgb(8,94,45));
+	background-image: -o-linear-gradient(rgb(14,164,79),rgb(8,94,45));
+	background-image: -webkit-linear-gradient(rgb(14,164,79),rgb(8,94,45));
+	background-image: linear-gradient(rgb(14,164,79),rgb(8,94,45));
 	padding-top: 0.1em;
 	padding-bottom: 0.1em;
 	text-align: center;
-	background-color: #0ea44f;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
 }
 
 .content {
 	min-height: 1em;
-	padding: 1em;
-	background-color: #0ea44f;
-	-moz-border-radius: 15px;
+	background-image: -moz-linear-gradient(rgb(14,164,79),rgb(8,94,45));
+	background-image: -o-linear-gradient(rgb(14,164,79),rgb(8,94,45));
+	background-image: -webkit-linear-gradient(rgb(14,164,79),rgb(8,94,45));
+	background-image: linear-gradient(rgb(14,164,79),rgb(8,94,45));
 	border-radius: 15px;
 }
 
@@ -73,3 +76,10 @@ body {
 
 }
 
+#systemImage {
+	width: 200px;
+	float: left;
+	margin: 1em;
+	/*padding-bottom: .5em;
+	 padding-right: .5em;*/
+}
