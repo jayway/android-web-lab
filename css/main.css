@@ -40,29 +40,28 @@ header img {
 
 ul.wine_list {
 	list-style-type: none;
-	margin-left: 0px;
-	padding: 0px;
+	padding-left: 0px;
+	padding-right: 17px;
+	margin: 0px;
 }
 
 li.wine_list_item {
 	list-style: none;
 	font-size: 70%;
-	padding-left: 10px;
 	padding-right: 10px;
-	background-image: -moz-linear-gradient(top, #888888 0%, #666666 100%);
-	background-image: -webkit-linear-gradient(top, #888888 0%, #666666 100%);
-	background-image: -o-linear-gradient(top, #888888 0%, #666666 100%);
-	background-image: linear-gradient(top, #888888 0%, #666666 100%);
+	background-image: -moz-linear-gradient(top, #C0C0C0 0%, #808080 100%);
+	background-image: -webkit-linear-gradient(top, #C0C0C0 0%, #808080 100%);
+	background-image: -o-linear-gradient(top, #C0C0C0 0%, #808080 100%);
+	background-image: linear-gradient(top, #C0C0C0 0%, #808080 100%);
 }
 li.wine_list_item_top {
 	list-style: none;
 	font-size: 70%;
-	padding-left: 10px;
 	padding-right: 10px;
-	background-image: -moz-linear-gradient(top, #888888 0%, #666666 100%);
-	background-image: -webkit-linear-gradient(top, #888888 0%, #666666 100%);
-	background-image: -o-linear-gradient(top, #888888 0%, #666666 100%);
-	background-image: linear-gradient(top, #888888 0%, #666666 100%);
+	background-image: -moz-linear-gradient(top, #C0C0C0 0%, #808080 100%);
+	background-image: -webkit-linear-gradient(top, #C0C0C0 0%, #808080 100%);
+	background-image: -o-linear-gradient(top, #C0C0C0 0%, #808080 100%);
+	background-image: linear-gradient(top, #C0C0C0 0%, #808080 100%);
 	-moz-border-radius-topright: 5px;
 	-moz-border-radius-topleft: 5px;
 	-webkit-border-radius-topright: 5px;
@@ -103,12 +102,11 @@ div.blogg_header img {
 li.wine_list_item_bottom {
 	list-style: none;
 	font-size: 70%;
-	padding-left: 10px;
 	padding-right: 10px;
-	background-image: -moz-linear-gradient(top, #888888 0%, #666666 100%);
-	background-image: -webkit-linear-gradient(top, #888888 0%, #666666 100%);
-	background-image: -o-linear-gradient(top, #888888 0%, #666666 100%);
-	background-image: linear-gradient(top, #888888 0%, #666666 100%);
+	background-image: -moz-linear-gradient(top, #C0C0C0 0%, #808080 100%);
+	background-image: -webkit-linear-gradient(top, #C0C0C0 0%, #808080 100%);
+	background-image: -o-linear-gradient(top, #C0C0C0 0%, #808080 100%);
+	background-image: linear-gradient(top, #C0C0C0 0%, #808080 100%);
 	-moz-border-radius-bottomright: 5px;
 	-moz-border-radius-bottomleft: 5px;
 	-o-border-radius-topright: 5px;
@@ -155,3 +153,12 @@ ul.contact_list li {
   	margin: 0;
   	padding: 0;
 }
+
+div.list_item_text h2 {
+	position: relative;
+	left: 36px;
+	top: -36px;
+	display: inline;
+}
+
+
