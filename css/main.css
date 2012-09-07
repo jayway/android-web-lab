@@ -83,3 +83,17 @@ li.wine_list_item_bottom {
 	-border-radius-topright: 5px;
 	-border-radius-topleft: 5px;
 }
+
+div.menu_option {
+	padding: 20px;
+	background-image: -moz-linear-gradient(top, #888888 0%, #666666 100%);
+	background-image: -webkit-linear-gradient(top, #888888 0%, #666666 100%);
+	background-image: -o-linear-gradient(top, #888888 0%, #666666 100%);
+	background-image: linear-gradient(top, #888888 0%, #666666 100%);
+	-moz-border-radius: 18px;
+	-webkit-border-radius: 18px;
+	-o-border-radius: 18px;
+	-border-radius: 18px;
+	box-shadow: 0 0 20px #FAA;
+	
+}
