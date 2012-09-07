@@ -1,36 +1,49 @@
 @CHARSET "UTF-8";
 
+div.main {
+	width: 320px;
+}
 
+header.first_page img {
+	width: 250;
+	height: 100px
+}
+
+
+nav.menu_options img {
+	width: 100px;
+	height: 100px;
+} 
+
+div#header_icon {
+	position:absolute;
+	top: 0;
+	alignment-adjust: center;
+	
+}
 
 div#upper_right {
 	position: absolute;
-	left: 0px;
-	top: 40px;
-	margin: 0 0 10px 20px;
-	padding: 0 0 10px 70px;
+	right: 0px;
+	top: 100px;
 }
 
 div#upper_left {
 	position: absolute;
-	right: 0px;
-	top: 40px;
-	margin: 0 0 10px 20px;
-	padding: 0 0 10px 70px;
+	left: 0px;
+	top: 100px;
 }
 
 div#lower_left {
 	position: absolute;
 	left: 0px;
-	bottom: 0px;
-	margin: 0 0 10px 20px;
-	padding: 0 0 10px 70px;
+	bottom: 40px;
+	
 }
 
 div#lower_right {
 	position: absolute;
 	right: 0px;
 	bottom: 40px;
-	margin: 0 0 10px 20px;
-	padding: 0 0 10px 70px;
 }
 
