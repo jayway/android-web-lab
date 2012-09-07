@@ -1,0 +1,16 @@
+figure {
+	float: left;
+	margin-right: 1.5em;
+}
+
+figcaption {
+	display: block;
+	font-weight: bold;
+	padding-top: .25em;
+	margin-bottom: 1em;
+	border-bottom: 1px solid black;
+}
+
+ul.image_style {
+	list-style-type: disc;
+}
