@@ -32,10 +32,10 @@ body {
 }
 
 .star {
-	float: right
+	float: right;
 }
 
-li {
+.winelist li {
 	border: solid thin black;
 	-webkit-border-radius: 5px;
 	margin-bottom: 10px;
@@ -47,3 +47,41 @@ li {
 	float: right;
 }
 
+.detail_image {
+	float: left;
+	height: 250px;
+	margin-right: 15px;
+	Ê
+}
+
+.infoIcons {
+	width: 24px;
+	margin: 4px;
+}
+
+.wineInfo li {
+	list-style: none;
+}
+
+table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+.infoCell {
+	height: 20px;
+	padding: 0px;
+	margin: 0px;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 9px;
+}
+
+.infoLabel {
+	font-weight: bold;
+}
+
+.infoTable {
+	position: relative;
+	bottom: 0px;
+}
