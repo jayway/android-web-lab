@@ -83,13 +83,13 @@ div.blogg_header h1 {
 	display: inline;
 	left: 25px;
     position: relative;
-    top: -50px;
+    top: -40px;
 }
 
 div.blogg_date {
 	left: 50px;
     position: relative;
-    top: -50px;
+    top: -40px;
 }
 
 div.blogg_header img {
@@ -98,6 +98,26 @@ div.blogg_header img {
 	left: 10px;
 	
 }
+
+
+div.blogg {
+	background-image: -moz-linear-gradient(top, white 0%, #AAAAAA 100%);
+	background-image: -webkit-linear-gradient(top, white 0%, #AAAAAA 100%);
+	background-image: -o-linear-gradient(top, white 0%, #AAAAAA 100%);
+	background-image: -linear-gradient(top, white 0%, #AAAAAA 100%);
+	
+	width: 90%;
+	border: medium ridge black;
+    margin: 20px 0;
+    padding: 20px 10px;
+	
+}
+
+body.blogg_body {
+	background-image: none;
+}
+
+
 
 li.wine_list_item_bottom {
 	list-style: none;
