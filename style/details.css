@@ -1,24 +1,3 @@
-* {
-    margin:             0px;
-    padding:            0px;
-    outline:            none;
-    font-family:        sans-serif;
-    font-size:          12pt;
-    border:             none;
-}
-
-html {
-    height:             100%;
-    width:				100%;
-    background-color:   #f1efd9;
-}
-
-body {
-    width:              100%;
-    height:             100%;
-    margin:             0px auto;
-}
-
 #title {
 	font-size: 			24px;
 	font-weight: 		bold;
@@ -109,7 +88,7 @@ ul li {
 }
 
 #taste img {
-	padding: 			0px 35px;
+	padding: 			0px 28px;
 	display: 			block;
 }
 
@@ -125,10 +104,6 @@ ul li {
 #food li {
 	float: 				left;
 	list-style: 		none;
-}
-
-footer {
-	clear:				both;
 }
 
 #tastetip1, #tastetip2, #tastetip3 {
