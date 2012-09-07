@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+
+
+
+div#upper_right {
+	position: absolute;
+	left: 0px;
+	top: 40px;
+	margin: 0 0 10px 20px;
+	padding: 0 0 10px 70px;
+}
+
+div#upper_left {
+	position: absolute;
+	right: 0px;
+	top: 40px;
+	margin: 0 0 10px 20px;
+	padding: 0 0 10px 70px;
+}
+
+div#lower_left {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	margin: 0 0 10px 20px;
+	padding: 0 0 10px 70px;
+}
+
+div#lower_right {
+	position: absolute;
+	right: 0px;
+	bottom: 40px;
+	margin: 0 0 10px 20px;
+	padding: 0 0 10px 70px;
+}
+
