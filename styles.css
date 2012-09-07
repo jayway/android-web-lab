@@ -59,7 +59,6 @@ body {
 }
 
 .infoIcons {
-	width: 24px;
 	margin: 4px;
 }
 
@@ -73,12 +72,11 @@ table {
 }
 
 .infoCell {
-	height: 20px;
 	padding: 0px;
 	margin: 0px;
 	vertical-align: middle;
 	text-align: center;
-	font-size: 9px;
+	font-size: small;
 }
 
 .infoLabel {
