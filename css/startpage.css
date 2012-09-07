@@ -5,7 +5,7 @@ div.main {
 }
 
 header.first_page img {
-	width: 250;
+	width: 250px;
 	height: 100px
 }
 
@@ -18,8 +18,6 @@ nav.menu_options img {
 div#header_icon {
 	position:absolute;
 	top: 0;
-	alignment-adjust: center;
-	
 }
 
 div#upper_right {
