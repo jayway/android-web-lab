@@ -11,17 +11,39 @@ figcaption {
 	border-bottom: 1px solid black;
 }
 
-ul.image_style {
-	list-style-type: disc;
-}
+
 
 h1 {
-	margin-left: 40px;
-	color: #334499;
+	color: #333333;
 }
 
 body {
-	
-	background-image: -moz-linear-gradient(left, white 0%, red 100%);
-	
+	background-image: -moz-linear-gradient(top, white 0%, #AAAAAA 100%);
+}
+
+
+ul.wine_list {
+}
+
+li.wine_list_item {
+	list-style: none;
+	font-size: 200%;
+	padding: 10px;
+	background-image: -moz-linear-gradient(top, #888888 0%, #666666 100%);
+}
+li.wine_list_item_top {
+	list-style: none;
+	font-size: 200%;
+	padding: 10px;
+	background-image: -moz-linear-gradient(top, #888888 0%, #666666 100%);
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-topleft: 5px;
+}
+li.wine_list_item_bottom {
+	list-style: none;
+	font-size: 200%;
+	padding: 10px;
+	background-image: -moz-linear-gradient(top, #888888 0%, #666666 100%);
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
 }
