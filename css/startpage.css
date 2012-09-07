@@ -9,11 +9,16 @@ header.first_page img {
 	height: 100px
 }
 
+footer p {
+	position: absolute;
+	bottom: 0;
+	
+}
 
-nav.menu_options img {
-	width: 100px;
-	height: 100px;
-} 
+div.menu_options  {
+	width: 320px;
+}
+
 
 div#header_icon {
 	position:absolute;
@@ -22,26 +27,32 @@ div#header_icon {
 
 div#upper_right {
 	position: absolute;
-	right: 0px;
-	top: 100px;
+	right: 25px;
+	top: 130px;
 }
 
 div#upper_left {
 	position: absolute;
-	left: 0px;
-	top: 100px;
+	left: 25px;
+	top: 130px;
+}
+
+div#upper_left img, div#upper_right img {
 }
 
 div#lower_left {
 	position: absolute;
-	left: 0px;
-	bottom: 40px;
-	
+	left: 25px;
+	top: 280px;	
 }
 
 div#lower_right {
 	position: absolute;
-	right: 0px;
-	bottom: 40px;
+	right: 25px;
+	top: 280px;
 }
+
+div#lower_left img, div#lower_right img {
+}
+
 
