@@ -17,6 +17,17 @@
 		<link rel="shortcut icon" href="/favicon.ico" />
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 		<link rel="stylesheet" type="text/css" href="./style/details.css" />
+		
+		<script type="text/javascript">
+		function showTip(id){
+			var tip = document.getElementById(id);
+			tip.style.display='block'	
+		}
+		function hideTip(id){
+			var tip = document.getElementById(id);
+			tip.style.display='none'	
+		}
+</script>
 	</head>
 
 	<body>
@@ -27,7 +38,17 @@
 			<div>
 				<div id="title">Azabache </div>
 				<div id="category"><span id="main-category">Rött vin</span><span id="sub-category">Kryddigt & Mustigt</span></div>
+				<img id="wine" src="images/bottle.png" />
 				<div id="place"><img id="flag" src="images/spanien.gif"/><span id="country">Spanien</span><span id="region">Rioja</span></div>
+				<ul id="taste">
+					<li><a href="#" onclick="showTip('tastetip1')"><img src="images/c6.gif"/>Fyllighet</a></li>
+					<li><img src="images/c7.gif"/>Strävhet</li>
+					<li><img src="images/c9.gif"/>Fruktsyra</li>
+				</ul>
+				<ul id="food">
+					<li><img src="images/gris.gif"/>Gris</li>
+					<li><img src="images/lamm.gif"/>Lamm</li>
+				</ul>
 				<dl id="details">
 					<dt>Årgång</dt>
 					<dd>2008 </dd>	
@@ -44,15 +65,12 @@
 					<dt>Smak</dt>
 					<dd>Kryddig smak med inslag av fat, mörka körsbär, örter, lakrits och kakao.  </dd>
 				</dl>
-				<ul id="taste">
-					<li><img src="images/c6.gif"/>Fyllighet</li>
-					<li><img src="images/c7.gif"/>Strävhet</li>
-					<li><img src="images/c9.gif"/>Fruktsyra</li>
-				</ul>
-				<ul id="food">
-					<li><img src="images/gris.gif"/>Gris</li>
-					<li><img src="images/lamm.gif"/>Lamm</li>
-				</ul>
+				
+			</div>
+			
+			<div id="tastetip1">
+				<p>Hur fyllig känns drycken? Som vatten eller som oblandad saft? En 1:a (som vatten) är mycket sällsynt, men kan förekomma hos väldigt lätta öltyper. Motsatsen, en 12:a, är också sällsynt men ibland kan ett sött vitt vin, ett kraftigt rött eller ett starkvin vara just så väldigt fylligt.</p>
+				<p id="close"><a href="#" onclick="hideTip('tastetip1')">Stäng</a></p>
 			</div>
 
 

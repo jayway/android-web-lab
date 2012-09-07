@@ -25,6 +25,13 @@ body {
 	letter-spacing: 	0px;
 }
 
+#wine {
+	margin-right:		20px;
+	float:				right;
+	width:				50px;
+	margin-top:			-80px;
+}
+
 #category {
 	background: 		#af0000;
 	color: 				#f1efd9;
@@ -52,10 +59,21 @@ body {
 }
 
 #details {
-	background: 		#bbbbbb;
+	clear:				both;
+	background: 		#ffffff;
 	padding:			10px;
-	margin:				10px;
-	-webkit-border-radius: 10px
+	margin:				10px 0px;
+	border-bottom: 		1px solid black;
+	border-top:			1px solid black;
+}
+
+dl dt {		
+	font-weight: 		bold;
+}
+
+dl dd {
+	display:			block;
+	margin-bottom:		5px;
 }
 
 ul {
@@ -70,10 +88,26 @@ li {
 
 ul li {
 	float: 				left;
+	text-align: 		center;
+	background:			#FFFFFF;
+	-webkit-border-radius: 5px;
+	border: 			1px solid black;
+	padding:			3px 0px;
 }
 
-li img {
-	display: block;
+#taste a {
+	text-decoration: 	none;
+	color: 				black;	
+}
+
+#taste img {
+	padding: 			0px 35px;
+	display: 			block;
+}
+
+#food img {
+	padding: 			0px 27px;
+	display: 			block;
 }
 
 #food {
@@ -87,4 +121,19 @@ li img {
 
 footer {
 	clear:				both;
+}
+
+#tastetip1 {
+	position: 			absolute;
+	display:			none;
+	top:				50px;
+	margin:				20px;
+	padding:			20px;
+	background:			lightsteelblue;
+	-webkit-border-radius: 10px;
+	border: 			1px solid black;
+}
+
+#tastetip1 #close {
+	text-align:			right;
 }
