@@ -14,3 +14,14 @@ figcaption {
 ul.image_style {
 	list-style-type: disc;
 }
+
+h1 {
+	margin-left: 40px;
+	color: #334499;
+}
+
+body {
+	
+	background-image: -moz-linear-gradient(left, white 0%, red 100%);
+	
+}
