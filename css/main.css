@@ -26,7 +26,7 @@ body {
 	background-image: -moz-linear-gradient(top, white 0%, #AAAAAA 100%);
 	background-image: -webkit-linear-gradient(top, white 0%, #AAAAAA 100%);
 	background-image: -o-linear-gradient(top, white 0%, #AAAAAA 100%);
-	background-image: -linear-gradient(top, white 0%, #AAAAAA 100%);
+	background-image: linear-gradient(top, white 0%, #AAAAAA 100%);
 	height: 100%;
 	width: 100%;
 }
@@ -68,8 +68,8 @@ li.wine_list_item_top {
 	-webkit-border-radius-topleft: 5px;
 	-o-border-radius-topright: 5px;
 	-o-border-radius-topleft: 5px;
-	-border-radius-topright: 5px;
-	-border-radius-topleft: 5px;
+	border-radius-topright: 5px;
+	border-radius-topleft: 5px;
 }
 
 ul.wine_list h2{
@@ -111,8 +111,8 @@ li.wine_list_item_bottom {
 	-moz-border-radius-bottomleft: 5px;
 	-o-border-radius-topright: 5px;
 	-o-border-radius-topleft: 5px;
-	-border-radius-topright: 5px;
-	-border-radius-topleft: 5px;
+	border-radius-topright: 5px;
+	border-radius-topleft: 5px;
 }
 
 img.wine_image {
@@ -130,11 +130,11 @@ div.menu_option {
 	-moz-border-radius: 18px;
 	-webkit-border-radius: 18px;
 	-o-border-radius: 18px;
-	-border-radius: 18px;
+	border-radius: 18px;
 	-moz-box-shadow: 0 0 20px #000000;
 	-webkit-box-shadow: 0 0 20px #000000;
 	-o-box-shadow: 0 0 20px #000000;
-	-box-shadow: 0 0 20px #000000;
+	box-shadow: 0 0 20px #000000;
 }
 	
 a {
