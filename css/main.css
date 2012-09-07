@@ -106,9 +106,9 @@ div.blogg {
 	background-image: -o-linear-gradient(top, white 0%, #AAAAAA 100%);
 	background-image: -linear-gradient(top, white 0%, #AAAAAA 100%);
 	
-	width: 90%;
+	width: 80%;
 	border: medium ridge black;
-    margin: 20px 0;
+    margin: 20px 10px;
     padding: 20px 10px;
 	
 }
