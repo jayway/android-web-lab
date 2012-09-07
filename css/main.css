@@ -40,11 +40,13 @@ header img {
 
 ul.wine_list {
 	list-style-type: none;
+	margin-left: 0px;
+	padding: 0px;
 }
 
 li.wine_list_item {
 	list-style: none;
-	font-size: 100%;
+	font-size: 70%;
 	padding: 10px;
 	background-image: -moz-linear-gradient(top, #888888 0%, #666666 100%);
 	background-image: -webkit-linear-gradient(top, #888888 0%, #666666 100%);
@@ -53,7 +55,7 @@ li.wine_list_item {
 }
 li.wine_list_item_top {
 	list-style: none;
-	font-size: 100%;
+	font-size: 70%;
 	padding: 10px;
 	background-image: -moz-linear-gradient(top, #888888 0%, #666666 100%);
 	background-image: -webkit-linear-gradient(top, #888888 0%, #666666 100%);
@@ -70,7 +72,7 @@ li.wine_list_item_top {
 }
 li.wine_list_item_bottom {
 	list-style: none;
-	font-size: 100%;
+	font-size: 70%;
 	padding: 10px;
 	background-image: -moz-linear-gradient(top, #888888 0%, #666666 100%);
 	background-image: -webkit-linear-gradient(top, #888888 0%, #666666 100%);
@@ -96,4 +98,7 @@ div.menu_option {
 	-border-radius: 18px;
 	box-shadow: 0 0 20px #FAA;
 	
+a {
+	text-decoration: none;
+	color: black;
 }
