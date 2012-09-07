@@ -1,3 +1,6 @@
+<style type="text/css">
+
+
 figure {
 	float: left;
 	margin-right: 1.5em;
@@ -12,10 +15,6 @@ figcaption {
 }
 
 
-
-h1 {
-	color: #333333;
-}
 
 html {
 	height: 100%;
@@ -88,21 +87,38 @@ li.wine_list_item_bottom {
 
 div.menu_option {
 	padding: 15px;
+	
 	background-image: -moz-linear-gradient(top, #888888 0%, #666666 100%);
 	background-image: -webkit-linear-gradient(top, #888888 0%, #666666 100%);
 	background-image: -o-linear-gradient(top, #888888 0%, #666666 100%);
 	background-image: linear-gradient(top, #888888 0%, #666666 100%);
+	
 	-moz-border-radius: 18px;
 	-webkit-border-radius: 18px;
 	-o-border-radius: 18px;
 	-border-radius: 18px;
-	moz-box-shadow: 0 0 20px #FAA;
-	webkit-box-shadow: 0 0 20px #FAA;
-	o-box-shadow: 0 0 20px #FAA;
-	box-shadow: 0 0 20px #FAA;
+	
+	-moz-box-shadow: 0 0 20px #FAA;
+	-webkit-box-shadow: 0 0 20px #FAA;
+	-o-box-shadow: 0 0 20px #FAA;
+	-box-shadow: 0 0 20px #FAA;
 }
 	
 a {
 	text-decoration: none;
 	color: black;
 }
+
+ul.contact_list {
+	list-style: none;
+  	margin-left: 1em;
+  	padding-left: 0;
+}
+
+ul.contact_list li {
+	list-style: none;
+  	margin: 0;
+  	padding: 0;
+}
+
+</style>
