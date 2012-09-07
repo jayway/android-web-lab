@@ -1,3 +1,12 @@
+html {
+	min-width: 100%;
+	min-height: 100%;
+	background-image: -moz-linear-gradient(rgb(175,175,175),rgb(255,255,255));
+	background-image: -o-linear-gradient(rgb(175,175,175),rgb(255,255,255));
+	background-image: -webkit-linear-gradient(rgb(175,175,175),rgb(255,255,255));
+	background-image: linear-gradient(rgb(175,175,175),rgb(255,255,255));
+}
+
 .plainText {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 80%;
@@ -5,9 +14,10 @@
 
 h1 {
 	font-family: Helvetica, Arial, sans-serif;
-	color: gray;
+	font-size: 140%;
+	color: #edca3c;
 	text-transform: uppercase;
-	text-shadow: 2px 2px #333333
+	text-shadow: 2px 2px gray;
 }
 
 .wineItem {
@@ -18,9 +28,17 @@ h1 {
 	height: 25px;
 }
 #systemImage {
+	border: #0000FF 1px;
+	width: 200px;
 	float: left;
 	padding-bottom: .5em;
 	padding-right: .5em;
+}
+
+#back{
+	height: 60px;
+	
+	background-image: url(images/back.jpeg);
 }
 
 .wineListWineImage {
@@ -35,11 +53,24 @@ h1 {
 	right: 200px;
 }
 
+header {
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+	text-align: center;
+	background-color: #0ea44f;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.content {
+	min-height: 1em;
+	padding: 1em;
+	background-color: #0ea44f;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
 body {
-	margin: 1em;
-	background-image: -moz-linear-gradient(rgb(100,100,100),rgb(200,200,200));
-	background-image: -o-linear-gradient(rgb(100,100,100),rgb(200,200,200));
-	background-image: -webkit-linear-gradient(rgb(100,100,100),rgb(200,200,200));
-	background-image: linear-gradient(rgb(100,100,100),rgb(200,200,200));
+
 }
 
