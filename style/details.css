@@ -59,12 +59,19 @@ body {
 }
 
 #details {
+	position:			relative;
 	clear:				both;
 	background: 		#ffffff;
 	padding:			10px;
 	margin:				10px 0px;
 	border-bottom: 		1px solid black;
 	border-top:			1px solid black;
+	height: 			40px;
+	overflow:			hidden;
+}
+
+#more {
+	float:				right;
 }
 
 dl dt {		
@@ -123,7 +130,7 @@ footer {
 	clear:				both;
 }
 
-#tastetip1 {
+#tastetip1, #tastetip2, #tastetip3 {
 	position: 			absolute;
 	display:			none;
 	top:				50px;
@@ -134,6 +141,7 @@ footer {
 	border: 			1px solid black;
 }
 
-#tastetip1 #close {
+.close {
 	text-align:			right;
 }
+
