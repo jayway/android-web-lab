@@ -6,19 +6,35 @@
 h1 {
 	font-family: Helvetica, Arial, sans-serif;
 	color: gray;
-	text-shadow: 2px 2px #333333;
+	text-transform: uppercase;
+	text-shadow: 2px 2px #333333
 }
 
-img {
-	max-width: 100%;
-	max-height: 100%
+.wineItem {
+	border: solid 1px blue;
 }
-
+.wineListStar {
+	width: 25px;
+	height: 25px;
+}
 #systemImage {
 	float: left;
 	padding-bottom: .5em;
 	padding-right: .5em;
 }
+
+.wineListWineImage {
+	width: 50%;
+}
+.wineBottleImageDiv {
+	position: relative;
+}
+
+.wineBottleInfoDiv {
+	position: absolute;
+	right: 200px;
+}
+
 body {
 	margin: 1em;
 	background-image: -moz-linear-gradient(rgb(100,100,100),rgb(200,200,200));
