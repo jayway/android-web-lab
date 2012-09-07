@@ -4,12 +4,6 @@ div.main {
 	width: 320px;
 }
 
-header img {
-	width: 300px;
-	height: 75px;
-	padding: 0 10px;
-}
-
 footer p {
 	position: absolute;
 	bottom: 0;
@@ -20,40 +14,41 @@ div.menu_options  {
 	width: 320px;
 }
 
-
-div#header_icon {
-	position:absolute;
-	top: 0;
-}
-
 div#upper_right {
-	position: absolute;
-	right: 25px;
-	top: 150px;
+	padding-right: 5%;
+	right: 0;
+    position: absolute;
+    top: 140px;
 }
 
 div#upper_left {
+	padding-left: 5%;
 	position: absolute;
-	left: 25px;
-	top: 150px;
+	left: 0;
+	top: 140px;
+	
 }
 
-div#upper_left img, div#upper_right img {
+div#upper_left img, 
+div#upper_right img, 
+div#lower_left img, 
+div#lower_right img {
+	width:100px;
 }
 
 div#lower_left {
 	position: absolute;
-	left: 25px;
+	left: 0;
 	top: 300px;	
+	padding-left: 5%;
 }
 
 div#lower_right {
 	position: absolute;
-	right: 25px;
+	right: 0;
 	top: 300px;
+	padding-right: 5%;
 }
 
-div#lower_left img, div#lower_right img {
-}
 
 
