@@ -61,6 +61,12 @@ li.wine_list_item_top {
 	background-image: linear-gradient(top, #888888 0%, #666666 100%);
 	-moz-border-radius-topright: 5px;
 	-moz-border-radius-topleft: 5px;
+	-webkit-border-radius-topright: 5px;
+	-webkit-border-radius-topleft: 5px;
+	-o-border-radius-topright: 5px;
+	-o-border-radius-topleft: 5px;
+	-border-radius-topright: 5px;
+	-border-radius-topleft: 5px;
 }
 li.wine_list_item_bottom {
 	list-style: none;
@@ -72,4 +78,8 @@ li.wine_list_item_bottom {
 	background-image: linear-gradient(top, #888888 0%, #666666 100%);
 	-moz-border-radius-bottomright: 5px;
 	-moz-border-radius-bottomleft: 5px;
+	-o-border-radius-topright: 5px;
+	-o-border-radius-topleft: 5px;
+	-border-radius-topright: 5px;
+	-border-radius-topleft: 5px;
 }
