@@ -76,6 +76,9 @@ li.wine_list_item_top {
 ul.wine_list h2{
 	display: inline;
 }
+ul.wine_list li{
+	padding-top: 5px;
+}
 
 li.wine_list_item_bottom {
 	list-style: none;
