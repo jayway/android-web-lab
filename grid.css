@@ -1,0 +1,29 @@
+.grid {
+    max-width: 400px;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+.block {
+    width: 100%;
+    float: left;
+}
+
+.button {
+    width: 50%;
+    text-align: center;
+}
+
+.left {
+    float: left;
+} 
+
+.right {
+    float: right;
+}
+
+.btn_img {
+    height: auto;
+    max-height: 15%;
+    max-width: 50%;
+}
