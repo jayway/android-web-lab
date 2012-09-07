@@ -38,7 +38,8 @@
 }
 
 #details {
-	position:			relative;
+	position:			absolute;
+	top:				280px;
 	clear:				both;
 	background: 		#ffffff;
 	padding:			10px;
