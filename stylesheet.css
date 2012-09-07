@@ -1,10 +1,6 @@
 html {
 	min-width: 100%;
 	min-height: 100%;
-	backgro/*und-image: -moz-linear-gradient(rgb(18,206,100),rgb(255,255,255));
-	background-image: -o-linear-gradient(rgb(18,206,100),rgb(255,255,255));
-	background-image: -webkit-linear-gradient(rgb(18,206,100),rgb(255,255,255));
-	backgro*/und-image: linear-gradient(rgb(18,206,100),rgb(255,255,255));
 }
 
 .plainText {
@@ -23,7 +19,8 @@ h1 {
 }
 
 .wineItem {
-	border: solid 1px blue;
+	background-color: #FFFFB3;
+	border-radius: 15px;
 }
 .wineListStar {
 	width: 25px;
@@ -43,12 +40,18 @@ h1 {
 	width: 50%;
 }
 .wineBottleImageDiv {
+	min-width: 1em;
 	position: relative;
 }
 
 .wineBottleInfoDiv {
 	position: absolute;
 	right: 200px;
+}
+.wineCell {
+	width: 20%;
+	padding: 10px;
+	
 }
 
 header {
