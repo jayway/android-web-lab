@@ -19,6 +19,9 @@ h1 {
 
 body {
 	background-image: -moz-linear-gradient(top, white 0%, #AAAAAA 100%);
+	background-image: -webkit-linear-gradient(top, white 0%, #AAAAAA 100%);
+	background-image: -o-linear-gradient(top, white 0%, #AAAAAA 100%);
+	background-image: -linear-gradient(top, white 0%, #AAAAAA 100%);
 }
 
 
@@ -30,12 +33,18 @@ li.wine_list_item {
 	font-size: 200%;
 	padding: 10px;
 	background-image: -moz-linear-gradient(top, #888888 0%, #666666 100%);
+	background-image: -webkit-linear-gradient(top, #888888 0%, #666666 100%);
+	background-image: -o-linear-gradient(top, #888888 0%, #666666 100%);
+	background-image: linear-gradient(top, #888888 0%, #666666 100%);
 }
 li.wine_list_item_top {
 	list-style: none;
 	font-size: 200%;
 	padding: 10px;
 	background-image: -moz-linear-gradient(top, #888888 0%, #666666 100%);
+	background-image: -webkit-linear-gradient(top, #888888 0%, #666666 100%);
+	background-image: -o-linear-gradient(top, #888888 0%, #666666 100%);
+	background-image: linear-gradient(top, #888888 0%, #666666 100%);
 	-moz-border-radius-topright: 5px;
 	-moz-border-radius-topleft: 5px;
 }
@@ -44,6 +53,9 @@ li.wine_list_item_bottom {
 	font-size: 200%;
 	padding: 10px;
 	background-image: -moz-linear-gradient(top, #888888 0%, #666666 100%);
+	background-image: -webkit-linear-gradient(top, #888888 0%, #666666 100%);
+	background-image: -o-linear-gradient(top, #888888 0%, #666666 100%);
+	background-image: linear-gradient(top, #888888 0%, #666666 100%);
 	-moz-border-radius-bottomright: 5px;
 	-moz-border-radius-bottomleft: 5px;
 }
