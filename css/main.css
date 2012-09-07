@@ -80,6 +80,26 @@ ul.wine_list li{
 	padding-top: 5px;
 }
 
+div.blogg_header h1 {
+	display: inline;
+	left: 25px;
+    position: relative;
+    top: -50px;
+}
+
+div.blogg_date {
+	left: 50px;
+    position: relative;
+    top: -50px;
+}
+
+div.blogg_header img {
+	height: 80px;
+	position: relative;
+	left: 10px;
+	
+}
+
 li.wine_list_item_bottom {
 	list-style: none;
 	font-size: 70%;
@@ -95,6 +115,12 @@ li.wine_list_item_bottom {
 	-o-border-radius-topleft: 5px;
 	-border-radius-topright: 5px;
 	-border-radius-topleft: 5px;
+}
+
+img.wine_image {
+	height:30px;
+	width:30px; 
+	align: right;
 }
 
 div.menu_option {
