@@ -3,8 +3,14 @@
 <head>
 <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <meta charset="UTF-8">
+<<<<<<< HEAD
 <title>List</title>
-<link href="styles.css" rel="stylesheet" type="text/css"/>
+<link media="only screen and (max-device-width: 800px) and (min-device-width: 320px)" href="styles.css" type="text/css" rel="stylesheet" />
+<link href="styles.css" rel="stylesheet" type="text/css" media="handheld"/>
+=======
+<title>Detail</title>
+<link href="styles.css" rel="stylesheet" type="text/css" media="handheld, screen"/>
+>>>>>>> larger images/test
 </head>
 <body>
 
