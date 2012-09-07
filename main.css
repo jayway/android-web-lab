@@ -5,9 +5,13 @@ body {
 	/*		background-color: #ff0000; */
 	  margin-left: 10%; margin-right: 10%;
 	  margin-top: 10%; margin-bottom: 10%;
+	  background-color: #637e9d;
 }
 
 .button {
+	width: 100px;
+	background-color: rgb(255,255,255);
+	opacity: 0.5;
 	display: inline-block;
 	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
 	*display: inline;
@@ -34,6 +38,12 @@ body {
 	position: relative;
 	top: 1px;
 }
+
+.star {
+	opacity: 1.0;
+}
+
+
 /*
 #container
 {
@@ -62,3 +72,4 @@ width: 30%;
 margin: 5px;
 border: 1px solid #CCC;
 } */
+
